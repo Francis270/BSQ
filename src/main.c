@@ -85,7 +85,6 @@ static bool         stock_map(t_bsq *data, const int fd, const char *file)
         data->x = i;
         data->y = (l + 1) / i;
         return (h != data->y) ? false : true;
-        return (true);
 }
 
 int		main(int argc, char **argv)
